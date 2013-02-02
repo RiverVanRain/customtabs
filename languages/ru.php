@@ -25,8 +25,8 @@ $russian = array(
 То откройте файл</strong><br>
 <code>elgg\mod\customtabs\languages\ru.php</code><br><br>
 <strong>И отредактируйте эту строку</strong><br>
-<code>\'customtabs:tab1\' => \"Вкладка 1\",</code><br><br>
-напр., <code>\'customtabs:tab1\' => \"ВАШЕ_НОВОЕ_НАЗВАНИЕ\",</code><br>
+<code>'customtabs:tab1' => 'Вкладка 1',</code><br><br>
+напр., <code>'customtabs:tab1' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
 </center>",
 
 'customtabs:tab2:code' => "<center>
@@ -39,8 +39,8 @@ $russian = array(
 То откройте файл</strong><br>
 <code>elgg\mod\customtabs\languages\ru.php</code><br><br>
 <strong>И отредактируйте эту строку</strong><br>
-<code>\'customtabs:tab2\' => \"Вкладка 2\",</code><br><br>
-напр., <code>\'customtabs:tab2\' => \"ВАШЕ_НОВОЕ_НАЗВАНИЕ\",</code><br>
+<code>'customtabs:tab2' => 'Вкладка 2',</code><br><br>
+напр., <code>'customtabs:tab2' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
 </center>",
 
 'customtabs:tab3:code' => "<center>
@@ -53,8 +53,8 @@ $russian = array(
 То откройте файл</strong><br>
 <code>elgg\mod\customtabs\languages\ru.php</code><br><br>
 <strong>И отредактируйте эту строку</strong><br>
-<code>\'customtabs:tab3\' => \"Вкладка 3\",</code><br><br>
-напр., <code>\'customtabs:tab3\' => \"ВАШЕ_НОВОЕ_НАЗВАНИЕ\",</code><br>
+<code>'customtabs:tab3' => 'Вкладка 3',</code><br><br>
+напр., <code>'customtabs:tab3' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
 </center>",
 );
 add_translation("ru",$russian);

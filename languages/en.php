@@ -24,8 +24,8 @@ $english = array(
 Then open the file</strong><br>
 <code>elgg\mod\customtabs\languages\en.php</code><br><br>
 <strong>And change this string</strong><br>
-<code>\'customtabs:tab1\' => \"Tab 1\",</code><br><br>
-eg., <code>\'customtabs:tab1\' => \"YOUR_NEW_NAME\",</code><br>
+<code>'customtabs:tab1' => 'Tab 1',</code><br><br>
+eg., <code>'customtabs:tab1' => 'YOUR_NEW_NAME',</code><br>
 </center>",
 
 'customtabs:tab2:code' => "<center>
@@ -38,8 +38,8 @@ eg., <code>\'customtabs:tab1\' => \"YOUR_NEW_NAME\",</code><br>
 Then open the file</strong><br>
 <code>elgg\mod\customtabs\languages\en.php</code><br><br>
 <strong>And change this string</strong><br>
-<code>\'customtabs:tab2\' => \"Tab 2\",</code><br><br>
-eg., <code>\'customtabs:tab2\' => \"YOUR_NEW_NAME\",</code><br>
+<code>'customtabs:tab2' => 'Tab 2',</code><br><br>
+eg., <code>'customtabs:tab2' => 'YOUR_NEW_NAME',</code><br>
 </center>",
 
 'customtabs:tab3:code' => "<center>
@@ -52,8 +52,8 @@ eg., <code>\'customtabs:tab2\' => \"YOUR_NEW_NAME\",</code><br>
 Then open the file</strong><br>
 <code>elgg\mod\customtabs\languages\en.php</code><br><br>
 <strong>And change this string</strong><br>
-<code>\'customtabs:tab3\' => \"Tab 3\",</code><br><br>
-eg., <code>\'customtabs:tab3\' => \"YOUR_NEW_NAME\",</code><br>
+<code>'customtabs:tab3' => 'Tab 3',</code><br><br>
+eg., <code>'customtabs:tab3' => 'YOUR_NEW_NAME',</code><br>
 </center>",
 );
 add_translation("en",$english);
