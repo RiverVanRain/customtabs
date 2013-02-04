@@ -17,7 +17,18 @@ elgg_register_page_handler('customtabs','customtabs_page_handler');
 			// Add menu link
 $item = new ElggMenuItem('customtabs', elgg_echo('customtabs'), 'customtabs');
 elgg_register_menu_item('site', $item);
-				}
+
+elgg_register_menu_item('page', array(
+			'section' => 'customtabs',
+			'name' => 'customtabs',
+			'text' => elgg_echo('customtabs'),
+			'title' => elgg_echo('customtabs'),
+			'href' => "/customtabs",
+		//	'contexts' => array('activity'),
+			'link_class' => 	'elgg-state-selected',
+			'priority' => 100,
+			));				
+}
 
 
 
