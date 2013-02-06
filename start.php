@@ -18,6 +18,7 @@ elgg_register_page_handler('customtabs','customtabs_page_handler');
 $item = new ElggMenuItem('customtabs', elgg_echo('customtabs'), 'customtabs');
 elgg_register_menu_item('site', $item);
 
+if(!elgg_in_context('admin')) {
 elgg_register_menu_item('page', array(
 			'section' => 'customtabs',
 			'name' => 'customtabs',
@@ -28,8 +29,9 @@ elgg_register_menu_item('page', array(
 			'link_class' => 	'elgg-state-selected',
 			'priority' => 100,
 			));				
+ }
+ 
 }
-
 
 
 function customtabs_page_handler($page) {
