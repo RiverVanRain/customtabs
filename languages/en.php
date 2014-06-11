@@ -9,7 +9,7 @@
 	 * @copyright (c) weborganiZm 2k13
 	 */
 
-$english = array(
+return array(
 'customtabs' => "Custom Tabs",
 'customtabs:tab1' => "Tab 1",
 'customtabs:tab2' => "Tab 2",
@@ -56,4 +56,3 @@ Then open the file</strong><br>
 eg., <code>'customtabs:tab3' => 'YOUR_NEW_NAME',</code><br>
 </center>",
 );
-add_translation("en",$english);

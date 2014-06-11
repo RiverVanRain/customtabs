@@ -9,7 +9,7 @@
 	 * @copyright (c) weborganiZm 2k13
 	 */
 
-$russian = array(
+return array(
 'customtabs' => "Настраиваемые вкладки",
 'customtabs:tab1' => "Вкладка 1",
 'customtabs:tab2' => "Вкладка 2",
@@ -57,4 +57,3 @@ $russian = array(
 напр., <code>'customtabs:tab3' => 'ВАШЕ_НОВОЕ_НАЗВАНИЕ',</code><br>
 </center>",
 );
-add_translation("ru",$russian);
